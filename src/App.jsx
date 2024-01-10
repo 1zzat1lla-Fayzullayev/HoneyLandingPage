@@ -1,9 +1,22 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Menu from "./components/Menu";
+import OurTrustedShops from "./components/OurTrustedShops";
+import HoneyInfo from "./components/HoneyInfo";
+import OurProduct from "./components/OurProduct";
+import Footer from "./components/Footer";
 
 function App() {
   return (
-    <div>App</div>
-  )
+    <div>
+      <Navbar />
+      <Menu />
+      <OurTrustedShops />
+      <HoneyInfo />
+      <OurProduct />
+      <Footer />
+    </div>
+  );
 }
 
-export default App
+export default App;
