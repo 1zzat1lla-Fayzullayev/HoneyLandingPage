@@ -5,6 +5,7 @@ import OurTrustedShops from "./components/OurTrustedShops";
 import HoneyInfo from "./components/HoneyInfo";
 import OurProduct from "./components/OurProduct";
 import Footer from "./components/Footer";
+import "./sass/_all.scss";
 
 function App() {
   return (
