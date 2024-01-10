@@ -6,13 +6,6 @@ nav {
   background-color: #fff;
 }
 
-.logo {
-  color: #000;
-  letter-spacing: 4px;
-  font-size: 20px;
-  font-weight: 400;
-}
-
 .nav-links {
   display: flex;
   justify-content: space-around;
@@ -26,8 +19,8 @@ nav {
 .nav-links li a {
   color: #000;
   text-decoration: none;
-  letter-spacing: 3px;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 700;
 }
 
 .burger {

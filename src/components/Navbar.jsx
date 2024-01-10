@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "../sass/_navbar.scss";
+import navbar_logo from "../assets/images/navbar_logo.png";
 
 function Navbar() {
   const [showNavbar, setShowNavbar] = useState(false);
@@ -12,7 +13,7 @@ function Navbar() {
       <div>
         <nav>
           <div className="logo">
-            <h3>Honey</h3>
+            <img src={navbar_logo} alt="navbar logo" />
           </div>
           <ul className={`nav-links ${showNavbar && "active"}`}>
             <li>
