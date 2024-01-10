@@ -8,6 +8,7 @@ function Navbar() {
   const handleShowNavbar = () => {
     setShowNavbar(!showNavbar);
   };
+  
   return (
     <>
       <div className="navbar">
