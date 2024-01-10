@@ -1,0 +1,24 @@
+.container {
+  padding-top: 4%;
+  .menu {
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+    width: 100%;
+    height: 865px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: linear-gradient(76deg, #ff9d2d 1.66%, #ffd877 93.21%);
+    svg {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+    .menu-flex {
+      .first-menu {
+        display: flex;
+      }
+    }
+  }
+}
